@@ -1,0 +1,69 @@
+body{
+  width:90%;
+  margin:0 auto;
+}
+
+#content{
+  overflow: auto;
+}
+
+#nav, #featured, #footer{
+  margin:1%;
+}
+
+.article_column1, .article_column2, .article_column3{
+  width:31.3%;
+  float: left;
+  margin: 1%;
+}
+
+.article_column3{
+  margin-right: 0%;
+}
+li{
+  display: inline;
+  padding: 0.5em;
+}
+
+#nav, #footer{
+  background-color: #efefef;
+  padding: 0.5em 0;
+}
+
+#featured, .article_column1, .article_column2, .article_column3{
+  height: 10em;
+  margin-bottom: 1em;
+  background-color: #efefef;
+}
+#header{
+  background-image: url("https://media.cntraveler.com/photos/53e2f5b4c2d3f39d3610c1c2/master/pass/whiteys-ice-cream.jpg");
+  padding: 5px;
+}
+#featured{
+  background-image: url("https://media.istockphoto.com/photos/many-scoops-of-pink-strawberry-ice-cream-as-a-background-picture-id89354611?k=6&m=89354611&s=612x612&w=0&h=8OOrR1vjks215rHgNR7SWxXS-LtwAdmwP8LOiFzwDlI=");
+  text-align: center;
+  padding-top: 10px;
+}
+.article_column1{
+  background-image: url("https://static.tumblr.com/06febfb5e170d299ba5d21fa08b47dc4/ex92nh3/SHAn3m5g0/tumblr_static_20110615-mint_choclate_chip_web.jpg");
+  padding-left: 5px;
+  padding-top: 3px;
+}
+.article_column2{
+  background-image: url("https://www.baskinrobbins.com/content/dam/baskinrobbins/Product%20Images/Ice%20Cream%20Flavors/Flavor_Enlarged_ChocolateChipCookieDoug2.jpg");
+}
+.article_column3{
+  background-image: url("https://www.baskinrobbins.com/content/dam/baskinrobbins/Product%20Images/Ice%20Cream%20Flavors/Flavor_Enlarged_RockyRoad2.jpg");
+  padding-left: 5px;
+  padding-top: 3px;
+  color: white;
+}
+h2{
+  text-align: center;
+  padding-top: 53px;
+}
+#nav{
+  text-align: center;
+  background-color: black;
+  font-size: 20px;
+}
